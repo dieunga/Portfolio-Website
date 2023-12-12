@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Wordle</title>
+	
+    <link rel="icon" href="image/favicon.jpg">
+	<link rel="stylesheet" type="text/css" href="wordle.css">
+	<link rel="manifest" href="manifest_wordle.json">
+
+</head>
+<body>
+	<!--------header---->
+	<section id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo.png" class="logo">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="qualification.html">Qualification</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+		</div>
+		<div class="title">
+			<h1>WORDLE</h1>
+		</div>
+	</section>
+
+	<div id = "game"></div>
+	<div id="button">
+		<button class ="guess">Enter</button>
+		<button class ="restart">Play Again</button>
+		<input type="text" id="typebox" name="blah" placeholder="Guess">
+	</div>
+
+<!---javascript-->
+	<script src="wordle.js" type="module"></script>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

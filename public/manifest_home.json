@@ -1,0 +1,17 @@
+{
+  "name": "Dieu Nga's Portfolio",
+  "short_name": "Dieu Nga",
+  "description": "Portfolio of Computer Science undergraduate.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3498db",
+  "icons": [
+    {
+      "src": "/image/favicon.jpg",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
+

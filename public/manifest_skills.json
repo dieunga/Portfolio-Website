@@ -1,0 +1,16 @@
+{
+  "name": "Dieu Nga's Portfolio",
+  "short_name": "Dieu Nga",
+  "description": "Define CSS and JS + 2 pages displaying CSS skills and 1 Wordle page",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3498db",
+  "icons": [
+    {
+      "src": "/image/favicon.jpg",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

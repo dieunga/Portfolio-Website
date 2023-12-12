@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Schoolbell&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Hachi Maru Pop', cursive;
+}
+
+body {
+    color: black;
+    background-image: url(image/bg1.jpg);
+}
+
+/* --------header-------- */
+#header {
+    padding: 20px 10%;
+}
+
+.logo {
+    width: 100px;
+    display: flex;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+nav ul {
+    border-radius: 13px;  
+    background: #e4d3fc;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    font-size: 15px;
+    padding: 7px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #953553;
+    position: relative;
+    font-weight: 900;
+}
+
+nav ul li a:hover {
+    color: purple;
+    transition: 0.5s;
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 15px;
+}   
+
+.header-text {
+    padding: 20px;
+    border-radius: 13px;
+    background-color: #E37383;
+    border: 2px solid 	#E37383;
+    margin-top: 5%;
+}
+
+.header-text h1,
+.header-text h3,  
+.header-text p {
+    background-color: transparent;
+}
+
+.header-text p {
+    padding: 20px;
+    font-family: 'Schoolbell', cursive;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.header-text h1 {
+    font-size: 40px;
+}
+
+.header-text h3 {
+    text-align: center;
+    font-size: 35px;
+}
+
+/* -----------------content------------- */
+#context {
+    padding: 20px;
+}
+
+#definition, 
+#security, 
+#services, 
+#benefits {
+    padding: 15px;
+    margin-bottom: 13px;
+    display: block;
+    background: #f8c8dc;
+    border-radius: 15px;
+}
+
+body h1 {
+    font-size: 40px;
+    background-color: #e995ac;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#definition p,
+.security-matters p, 
+.types ol li, 
+.benefits-list ul li {
+    font-family: 'Schoolbell', cursive;
+    padding: 1%;
+    font-size: 26px;
+    text-align: justify;
+}
+
+#definition {
+    margin-top: 5%;
+}
+
+#definition p {
+    padding: 20px;
+}
+
+.benefits-list ul,
+.types ol {
+    list-style: none;
+    padding: 20px 10%;
+}
+
+.benefits-list  ul li span, 
+.types ol li span {
+    font-style: italic;
+    font-weight: 700;
+    color: #744854;
+}
+
+.security-matters p {
+    margin-bottom: 20px;
+}
+
+footer {
+    position: relative;
+}
+
+.row_footer {
+    padding: 30px;
+    background: #b17aa2;
+    width: 100%;
+}
+
+.row_footer ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 100px;
+    width: auto;
+    margin: 0 85px;
+}
+
+.row_footer ul li a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+}
+
+.row_footer ul li a:hover {
+    color: white;
+    font-weight: 900;
+}
+.row_footer p {
+    text-align: center;
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    #header {
+        padding: 20px 5%;
+    }
+
+    .logo {
+        width: 60px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+        font-size: 10px;
+    }
+
+    .header-text {
+        margin-top: 10%;
+    }
+
+    .header-text h1 {
+        font-size: 30px;
+    }
+
+    .header-text h3 {
+        font-size: 25px;
+    }
+
+    #definition,
+    #security,
+    #services,
+    #benefits {
+        padding: 15px;
+        margin-bottom: 13px;
+        display: block;
+        background: #f8c8dc;
+        border-radius: 15px;
+    }
+
+    body h1 {
+        font-size: 30px;
+    }
+
+    .benefits-list ul,
+    .types ol {
+        padding: 20px 5%;
+    }
+
+    .row_footer ul li {
+        padding: 0 5px;
+        margin: 0 5px;
+    }
+    .row_footer ul li a {
+        font-size: 0.9em;
+    }
+}
